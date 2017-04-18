@@ -1,0 +1,81 @@
+/***********************************/
+
+
+/* add css for the main navigation bar */
+
+#main-navbar {
+    background-color: blue;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* add css for the navigation container */
+
+#navbar-container {
+    position: relative;
+    float: left;
+    left: 50%;
+}
+
+#navbar-container ul {
+    position: relative;
+    float: left;
+    right: 50%;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+#navbar-container ul li {
+    float: left;
+    display: block;
+    padding: 10px 20px;
+}
+
+#navbar-container a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+
+/* add underscore when click on the selection */
+
+#onpage a {
+    text-decoration: underline overline;
+}
+
+
+/* setup sidebar with red background */
+
+#sidebar {
+    background-color: red;
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    right: 0%;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    padding: 15px 0;
+}
+
+#sidebar li {
+    display: block;
+    padding: 15px 0;
+}
+
+#sidebar a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+a:active {
+    background-color: #000;
+}
